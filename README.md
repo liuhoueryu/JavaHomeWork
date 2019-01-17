@@ -39,4 +39,8 @@
 =======
 # JavaHomeWork
 java for homework
+<<<<<<< HEAD
+>>>>>>> branch 'master' of https://github.com/liuhoueryu/JavaHomeWork.git
+=======
+today
 >>>>>>> branch 'master' of https://github.com/liuhoueryu/JavaHomeWork.git
