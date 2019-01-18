@@ -10,15 +10,15 @@ public class Car {
 	Scanner sc = new Scanner(System.in);
 
 	public void start() {
-		System.out.println("Car Start");
+		System.out.println("car Start");
 	}
 
 	public void accelerate() {
-		System.out.println("Car Accelerate");
+		System.out.println("car Accelerate");
 	}
 
 	public void brake() {
-		System.out.println("Car Brake");
+		System.out.println("car Brake");
 	}
 
 	public void setColor() {
@@ -27,8 +27,12 @@ public class Car {
 		this.color = color;
 	}
 
+	public String getColor() {
+		return this.color;
+	}
+
 	public void showColor() {
-		System.out.println("car is " + this.color);
+		System.out.println("car is " + getColor());
 	}
 
 	public void setType() {
@@ -37,8 +41,12 @@ public class Car {
 		this.type = type;
 	}
 
+	public String getType() {
+		return this.type;
+	}
+
 	public void showType() {
-		System.out.println("car is " + this.type);
+		System.out.println("car is " + getType());
 	}
 
 	public void setWeight() {
@@ -47,8 +55,12 @@ public class Car {
 		this.weight = weight;
 	}
 
+	public float getWeight() {
+		return this.weight;
+	}
+
 	public void showWeight() {
-		System.out.println("car is " + this.weight+"t");
+		System.out.println("car is " + getWeight() + "t");
 	}
 
 	public void setPlate() {
@@ -57,14 +69,18 @@ public class Car {
 		this.plate = plate;
 	}
 
-	public void showPlate() {
-		System.out.println("car is " + this.plate);
+	public String getPlate() {
+		return this.plate;
 	}
 
-	public static void main(String[] args) {
+	public void showPlate() {
+		System.out.println("car is " + getPlate());
+	}
+
+	public static void initCar() {
 		Car car = new Car();
-		HumanBeings per =new HumanBeings();
 		car.setColor();
+		car.toString();
 		car.setType();
 		car.setPlate();
 		car.setWeight();
@@ -75,9 +91,11 @@ public class Car {
 		car.start();
 		car.accelerate();
 		car.brake();
-		per.eating();
-		per.working();
-		per.sleeping();
+		car.getPlate();
+	}
+
+	public static void main(String[] args) {
+		initCar();
 	}
 
 }
