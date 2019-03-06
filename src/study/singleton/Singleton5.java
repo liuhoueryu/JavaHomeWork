@@ -1,5 +1,5 @@
 package study.singleton;
-//枚举模式
+//ö��ģʽ
 public enum Singleton5 {
 	SINGLE;
 }

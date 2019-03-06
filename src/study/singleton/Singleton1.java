@@ -1,5 +1,5 @@
 package study.singleton;
-//é¥¿æ±‰å¼
+//ÀÁººÊ½
 public class Singleton1 {
 	private static Singleton1 single = new Singleton1();
 
