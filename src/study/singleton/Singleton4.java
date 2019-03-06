@@ -1,5 +1,5 @@
 package study.singleton;
-//静态的内部类
+//闈欐�佸唴閮ㄥ疄鐜扮被
 public class Singleton4 {
 	private static class SingletonInstance {
 		private static Singleton4 single = new Singleton4();

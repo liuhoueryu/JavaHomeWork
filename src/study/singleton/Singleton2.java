@@ -1,5 +1,5 @@
 package study.singleton;
-//ÀÁººÊ½
+//æ‡’æ±‰å¼
 public class Singleton2 {
 	private static Singleton2 single;
 

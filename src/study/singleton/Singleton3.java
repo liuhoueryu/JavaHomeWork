@@ -1,5 +1,5 @@
 package study.singleton;
-//˫�ؼ����ģʽ
+//双重检测锁模式
 public class Singleton3 {
 	private static Singleton3 single;
 
