@@ -46,10 +46,16 @@ public class Student {
 	public void setExlaugugeGard(double exlaugugeGard) {
 		this.exlaugugeGard = exlaugugeGard;
 	}
+	
 	public Boolean isPass() {
 		if(this.getLaugugeGard()>60&&this.getExlaugugeGard()>60&&this.getMathGard()>60&&this.getExlaugugeGard()+this.getLaugugeGard()+this.getMathGard()>200)
 			return true;
 		else 
 			return false;
+	}
+	public void initStudent() {
+		this.setExlaugugeGard(121);
+		this.setLaugugeGard(73);
+		this.setMathGard(109);
 	}
 }

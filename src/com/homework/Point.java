@@ -29,7 +29,8 @@ public class Point {
 		setX(offsetX);
 		setY(offsetY);
 	}
+
 	public double distance(Point point) {
-		return Math.sqrt(Math.pow(point.x, 2)+Math.pow(point.y,2));
+		return Math.sqrt(Math.pow(point.x, 2) + Math.pow(point.y, 2));
 	}
 }
