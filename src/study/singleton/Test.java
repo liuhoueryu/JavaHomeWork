@@ -3,7 +3,7 @@ package study.singleton;
 public class Test {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// TODO  Auto-generated method stub
 		Singleton1 s1= Singleton1.getInstance();
 		Singleton1 s2= Singleton1.getInstance();
 		System.out.println(s1);
