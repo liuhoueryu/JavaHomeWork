@@ -1,4 +1,4 @@
-package practice.taskmgr;
+package practice.singleton.taskmgr;
 
 public class Tsm {
 	private static Tsm t = new Tsm();

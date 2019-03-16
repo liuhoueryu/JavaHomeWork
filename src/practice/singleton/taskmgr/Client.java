@@ -1,4 +1,4 @@
-package practice.taskmgr;
+package practice.singleton.taskmgr;
 
 public class Client {
 
